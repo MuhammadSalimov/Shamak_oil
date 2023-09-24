@@ -15,6 +15,56 @@ html {
   width: 100px;
 }
 
+.section-home{
+  border: 1px solid black;
+  padding: 100px 0 0 0;
+}
+
+.lower{
+  text-transform: lowercase;
+}
+
+.inform{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar{
+  width: 50px;
+  height: 50px;
+}
+
+.dori-title{
+  animation: animate 1s ease-in infinite;
+}
+
+
+@keyframes animate {
+  50%{
+    color: red;
+  }
+  100%{
+    color: green;
+  }
+}
+
+.avatar img{
+  border-radius: 50%;
+}
+.tilte-avatar{
+  width: 80%;
+}
+.header-button{
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  padding: 2px 6px;
+}
+
+
+
 
 .line {
   display: block;
