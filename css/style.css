@@ -4,7 +4,13 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 }
-
+body{
+  background-color:black !important;
+  color: white !important;
+}
+h1{
+  color: white !important;
+}
 *,
 *::before,
 *::after {
