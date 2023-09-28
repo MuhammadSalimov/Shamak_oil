@@ -78,6 +78,16 @@
 }
 
 
+.btn-done,.btn-okk{
+    width: 100px;
+    background-color: #00ec00;
+    color: #fff !important;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+}
+
+
 
 .cube {
     position: relative;
@@ -632,5 +642,25 @@
 
 
 .success-div{
+    z-index: 100000;
+}
+
+.success-divv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background-color: blueviolet;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.success-divv h1,h2{
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.success-divv{
     z-index: 100000;
 }
